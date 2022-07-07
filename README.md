@@ -8,9 +8,13 @@ The VBA script that runs the analysis was written with the existing data in mind
 
 ## Results of Analysis
 
-Use images & code exampled to...
-Compare stock performance between 2017 & 2018.
-Compare VBA script execution times of original script & the refactored script.
+### Stock Performance Comparison Between 2017 & 2018
+
+
+
+
+
+### VBA Execution Times: Original Script Compared to Refactored Script
 
 
 
