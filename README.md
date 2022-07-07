@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-Explain the Purpose of this analysis
+The purpose of this project is to use stock market data to learn Visual Basic for Applications (VBA) with Excel. We will use VBA to analyze and make calculations for several companies stock market performance. The criteria was simply to measure each company's total volume and return for the years being analyzed.The completed analysis can then be used by the end user to determine if one company would be a better investment than the others. 
 
 ## Results of Analysis
 
