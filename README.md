@@ -10,14 +10,19 @@ The VBA script that runs the analysis was written with the existing data in mind
 
 ### Stock Performance Comparison Between 2017 & 2018
 
+![2017 Analysis Results](/Resources/2017 Analysis Results.png)
 
+![2018 Analysis Results](/Resources/2018 Analysis Results.png)
 
 
 
 ### VBA Execution Times: Original Script Compared to Refactored Script
 
+![2017 Original Code Run Time](/Resources/VBA_Challenge_2017 (Original Code).png)
+![2018 Original Code Run Time](/Resources/VBA_Challenge_2018 (Original Code).png)
 
-
+![2017 Refactored Code Run Time](/Resources/VBA_Challenge_2017.png)
+![2018 Refactored Code Run Time](/Resources/VBA_Challenge_2018.png)
 
 
 
