@@ -42,18 +42,22 @@ Summary statement that addresses two questions
 From the refactoring exercise completed and discussed above in this case there was a clear advantage to refactoring the code. If the user decides to use the VBA script on a much larger data set then the efficiency of the refactored code will definitely be pronounced. 
 
 Doing some research on the Internet there are many advantages and disadvantages to refactoring code:
-    - Advantages:
-        -- Maintainability: Refactored code should be easier to read and maintain. If the code will be enhanced with new features in the future then refactoring could reduce the chances of future bugs by making the code easier to use or reuse.
-        -- Removing Bad Code: When schedules are tight, code is written in the best way possible in the time given. Refactoring can catch these issues and rewrite the code to be more efficient.
-    - Disadvantages
-        -- Can be expensive: Time spent refactoring can take away from valuable time spend developing new features.
-        -- Could introduce bugs: When touching code there is always the possibility of introducing new problems.
-        -- Delivery schedule is tight: In past jobs where we put a lot of pressure on vendors to deliver new features time spent refactoring would have caused delays in providing users the features they needed.
-    - Source: https://www.c-sharpcorner.com/article/pros-and-cons-of-code-refactoring/
+- Advantages:
+  - Efficiency: A goal of refactoring code is often to improve the efficiency of the code. For example, in our case the refactored code can do the same "job" faster than the original code.
+  - Maintainability: Refactored code should be easier to read and maintain. If the code will be enhanced with new features in the future then refactoring could reduce the chances of future bugs by making the code easier to use or reuse.
+  - Removing Bad Code: When schedules are tight, code is written in the best way possible in the time given. Refactoring can catch these issues and rewrite the code to be more efficient.
 
-
-
+- Disadvantages
+  - Expensive: Time spent refactoring can take away from valuable time spend developing new features.
+  - New bugs: When touching code there is always the possibility of introducing new problems.
+  - Tight Delivery schedule: In past jobs where we put a lot of pressure on vendors to deliver new features time spent refactoring would have caused delays in providing users the features they needed.
+- Source: [Pros And Cons Of Code Refactoring](https://www.c-sharpcorner.com/article/pros-and-cons-of-code-refactoring/)
 
 3. How do these pros & cons apply to refactoring the original VBA script.
 
+Refactoring the VBA code in my case became a learning experience; However, resulted in much faster code. The learning experience resulted from having to rethink through the problem the code was written to solve to find a different solution that ended up being faster. I can see a situation where the goal is faster code but the different solution could end up being worse.
+
+From a maintainability standpoint, refactoring was another opportunity to add additional comments to the code making it more readable. Improved readability will be important in the future should the code need to be reused, changed or adapted.
+
+The learning experience came when I fat fingered a couple of statements. I then had to go back through the code to figure out why the VBA script was not running successfully. It made me realize why I have often heard software developers express reluctance to touch working code.
 
