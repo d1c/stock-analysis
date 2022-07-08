@@ -10,7 +10,11 @@ The VBA script that runs the analysis was written with the existing data in mind
 
 ### Stock Performance Comparison Between 2017 & 2018
 
+As you can see below, for this group of green stocks 2017 was a good year as all but one of them had a positive return for the year. Tickers DQ had the best performance of the bunch followed by SEDG. As a group, green stocks appear to have performed well for the year. 
+
 ![2017 Analysis Results](/Resources/2017_Analysis_Results.png)
+
+While 2017, was a great year for this batch of green stocks 2018 looks to have been a more challenging year. All but two of the company's public stock had a negative return for the year. Only EPNH and RUN provided a postive return for investors for the year.
 
 ![2018 Analysis Results](/Resources/2018_Analysis_Results.png)
 
