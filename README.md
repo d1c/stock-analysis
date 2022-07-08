@@ -22,12 +22,17 @@ While 2017, was a great year for this batch of green stocks 2018 looks to have b
 
 ### VBA Execution Times: Original Script Compared to Refactored Script
 
+In this section, we will look at and discuss the perfomance of the original VBA script to the refactored VBA script. SHown below, the original version of the VBA script ran the analysis in approximately 0.45 to 0.46 seconds.
+
 ![2017 Original Code Run Time](/Resources/VBA_Challenge_2017_Original_Code.png)
 ![2018 Original Code Run Time](/Resources/VBA_Challenge_2018_Original_Code.png)
+
+While the refactored VBA script consistently completed the analysis in 0.625 seconds.
 
 ![2017 Refactored Code Run Time](/Resources/VBA_Challenge_2017.png)
 ![2018 Refactored Code Run Time](/Resources/VBA_Challenge_2018.png)
 
+As a result of these measurements, the refactored code is multiple times faster than the original code.
 
 
 ## Summary
