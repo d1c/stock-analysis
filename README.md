@@ -34,23 +34,20 @@ While the refactored VBA script consistently completed the analysis in 0.625 sec
 
 As a result of these measurements, the refactored code is multiple times faster than the original code. While the original code was fast enough for the dataset being analyzed for this project the refactored code will allow fast performance if the user expands the data being analyzed to a much larger dataset.
 
-## Summary
+## Summary - Refactoring: Advantages and Disadvantages
 
-From the refactoring exercise completed and discussed above in this case there was a clear advantage to refactoring the code. If the user decides to use the VBA script on a much larger data set then the efficiency of the refactored code will be appreciated. 
+### Advantages
+Some advantages of refactoring code include improved efficiency, maintability and removal of "bad code." As data sets grow code that runs efficiently becomes more important. For example, data has to be processed and in many cases ingested into databases prior to being analyzed. The larger the volume of data the bigger impact more efficient code becomes. In one case I am familiar with, refactoring code saved almost two hours to process daily data making the data available for analysis much sooner.
 
-Doing some research on the Internet there are many advantages and disadvantages to refactoring code:
-- Advantages:
-  - Efficiency: A goal of refactoring code is often to improve the efficiency of the code. For example, in our case the refactored code can do the same "job" faster than the original code.
-  - Maintainability: Refactored code should be easier to read and maintain. If the code will be enhanced with new features in the future then refactoring could reduce the chances of future bugs by making the code easier to use or reuse.
-  - Removing Bad Code: When schedules are tight, code is written in the best way possible in the time given. Refactoring can catch these issues and rewrite the code to be more efficient.
+### Disadvantages
+Refactoring code clearly has its benefits but they do come with costs. Some disadvantages are increased expense, chance of introducing new bugs, and impacting tight delivery schedules. Refactoring takes time so therefore increases the cost and delivery of software. When working code is touched the risk of introducing new bugs is also increased. 
 
-- Disadvantages
-  - Expensive: Time spent refactoring can take away from valuable time spend developing new features.
-  - New bugs: When touching code there is always the possibility of introducing new problems.
-  - Tight Delivery schedule: In past jobs we put a lot of pressure on vendors to deliver new features. Time spent refactoring would have caused delays in delivering the feature requests.
-- Source: [Pros And Cons Of Code Refactoring](https://www.c-sharpcorner.com/article/pros-and-cons-of-code-refactoring/)
+### Advantages and Disadvantages of Scripts
+It could be said that a disadvantage of the original VBA script is that it successfully did what it was designed to do. The original script is clearing at a disadvantage when it comes to execution times. If this is the only dataset the original VBA script will be used to analyze then the added time to refactor the code could be considered wasted since it saved less than half a second of time. It is probably not a safe assumption the the script would never be used with much larger data sets. The use case of this project was to analyze the performance of 12 companies stock performance. If the dataset were expanded to every stock listed on American stock exchanges then the faster execution of the refactored VBA script would be a much bigger advantage.
 
-### How do these pros & cons apply to refactoring the original VBA script.
+
+
+
 
 In my case, while refactoring the VBA code resulted in faster code the process became a learning experience. The learning experience came as a result of having to think through and already solved problem to find a different more efficient way to solve the problem with VBA. While working through the refactoring exercise it occurred to me that while the goal is better or faster code the end result could be the opposite if not written carefully.
 
