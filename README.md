@@ -2,9 +2,7 @@
 
 ## Overview of Project
 
-The purpose of this project is to use stock market data to learn Visual Basic for Applications (VBA) with Excel. VBA is used to analyze and make calculations for several companies stock market performance. The criteria was simply to measure each company's total volume and return for the years being analyzed. The completed analysis can then be used by the user to determine if one company would be a better investment than the others. 
-
-The VBA script that runs the analysis was written with the existing data in mind from just two years (2017 & 2018) of information for 12 companies. The VBA script appeared to run efficiently. However, knowing the VBA script could be used on a much larger dataset we refactored the code to make it run faster and more efficiently.
+The purpose of this project is to use stock market data to learn Visual Basic for Applications (VBA) with Excel. VBA is used to analyze and make calculations for several companies stock market performance. The criteria was simply to measure each company's total volume and return for the years being analyzed. The completed analysis can then be used to determine if one company would be a better investment than the others. The VBA script that runs the analysis was written with the existing data in mind from two years (2017 & 2018) of information for 12 companies. The VBA script appeared to run efficiently. However, knowing the VBA script could be used on a much larger dataset it was refactored to make it run faster and more efficiently.
 
 ## Results of Analysis
 
@@ -25,7 +23,7 @@ Using just two years of data it is difficult to come to a conclusion if one of t
 
 ### VBA Execution Times: Original Script Compared to Refactored Script
 
-In this section, we will look at and discuss the perfomance of the original VBA script to the refactored VBA script. Shown below, the original version of the VBA script ran the analysis in approximately 0.45 to 0.46 seconds.
+In this section, we look at the perfomance of the original VBA script to the refactored VBA script. Shown below, the original version of the VBA script ran the analysis in approximately 0.45 to 0.46 seconds.
 
 ![2017 Original Code Run Time](/Resources/VBA_Challenge_2017_Original_Code.png)
 ![2018 Original Code Run Time](/Resources/VBA_Challenge_2018_Original_Code.png)
