@@ -8,17 +8,20 @@ The VBA script that runs the analysis was written with the existing data in mind
 
 ## Results of Analysis
 
-### Stock Performance Comparison Between 2017 & 2018
+### Stock Performance Comparison
 
+#### 2017 Analysis
 As you can see below, for this group of green stocks, 2017 was a good year. All but one of companies had a positive return for the year. Ticker DQ had the best performance of the bunch followed by SEDG. As a group, green stocks appear to have performed well for the year. 
 
 ![2017 Analysis Results](/Resources/2017_Analysis_Results.png)
 
+#### 2018 Analysis
 While 2017, was a great year for this batch of green stocks, 2018 was a more challenging year. All but two of the company's had a negative return for the year. Only EPNH and RUN provided a postive return for investors for the year.
 
 ![2018 Analysis Results](/Resources/2018_Analysis_Results.png)
 
-Using just two years of data it is difficult to come to a conclusion if one of the 12 companies would be the best investment going forward. This analysis is a good start; however, further analysis would be needed to come to a decision.
+#### Stock Comparison Summary
+Using just two years of data it is difficult to come to a conclusion if one of the 12 companies would be a better investment than any other going forward. This analysis is a good start; however, further analysis would be needed to come to a definitive decision.
 
 ### VBA Execution Times: Original Script Compared to Refactored Script
 
@@ -32,7 +35,7 @@ While the refactored VBA script consistently completed the analysis in 0.625 sec
 ![2017 Refactored Code Run Time](/Resources/VBA_Challenge_2017.png)
 ![2018 Refactored Code Run Time](/Resources/VBA_Challenge_2018.png)
 
-As a result of these measurements, the refactored code is multiple times faster than the original code. While the original code was fast enough for the dataset being analyzed for this project the refactored code will allow fast performance if the user expands the data being analyzed to a much larger dataset.
+These measurements show the refactored code is multiple times faster than the original code. While the original code was fast enough for the dataset being analyzed for this project the refactored code will allow fast performance if the user expands the data being analyzed to a much larger dataset.
 
 ## Summary - Refactoring: Advantages and Disadvantages
 
@@ -42,16 +45,5 @@ Some advantages of refactoring code include improved efficiency, maintability an
 ### Disadvantages
 Refactoring code clearly has its benefits but they do come with costs. Some disadvantages are increased expense, chance of introducing new bugs, and impacting tight delivery schedules. Refactoring takes time so therefore increases the cost and delivery of software. When working code is touched the risk of introducing new bugs is also increased. 
 
-### Advantages and Disadvantages of Scripts
-It could be said that a disadvantage of the original VBA script is that it successfully did what it was designed to do. The original script is clearing at a disadvantage when it comes to execution times. If this is the only dataset the original VBA script will be used to analyze then the added time to refactor the code could be considered wasted since it saved less than half a second of time. It is probably not a safe assumption the the script would never be used with much larger data sets. The use case of this project was to analyze the performance of 12 companies stock performance. If the dataset were expanded to every stock listed on American stock exchanges then the faster execution of the refactored VBA script would be a much bigger advantage.
-
-
-
-
-
-In my case, while refactoring the VBA code resulted in faster code the process became a learning experience. The learning experience came as a result of having to think through and already solved problem to find a different more efficient way to solve the problem with VBA. While working through the refactoring exercise it occurred to me that while the goal is better or faster code the end result could be the opposite if not written carefully.
-
-From a maintainability standpoint, refactoring was another opportunity to add additional comments to the code making it more readable. Improved readability will be important in the future should the code need to be reused, changed or adapted.
-
-Another learning experience came when I mistyped a couple of statements. I then had to go back through the code to figure out why the VBA script was not running successfully. The process of finding the mistyped code was time consuming and even a little time consuming. It made me realize why I have often heard software developers express reluctance to touch working code.
-
+### Advantages & Disadvantages of Each Script
+It could be said that an advantage of the original VBA script is that it successfully did what it was designed to do. The original script is clearly at a disadvantage when it comes to execution times. If this is the only dataset the original VBA script will be used to analyze then the additional time to refactor the code could be considered wasted since it saved less than half a second of time. However, it is more than likely not a safe assumption that the script would never be used with larger data sets. The use case of this project was to analyze the performance of 12 companies stock performance. If the dataset were expanded to every stock listed on American stock exchanges then the faster execution of the refactored VBA script would be a much bigger advantage.
